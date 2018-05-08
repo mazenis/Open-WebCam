@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Webcam.exe" version="1.0.0.0" publicKeyToken="30abcae15e251c5a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Webcam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Webcam.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AForge.dll" size="17920">
+      <assemblyIdentity name="AForge" version="2.2.5.0" publicKeyToken="C1DB6FF4EAA06AEB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lmpHQGCorKcMc7oJ0Lb+I1MDWWHHEHuQA++HnAEP+No=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AForge.Video.dll" size="20992">
+      <assemblyIdentity name="AForge.Video" version="2.2.5.0" publicKeyToken="CBFB6E07D173C401" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uvpu0EyieCJwB0EnoEmN3gIsKp9Alsa7K448CLs9QE0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AForge.Video.DirectShow.dll" size="61440">
+      <assemblyIdentity name="AForge.Video.DirectShow" version="2.2.5.0" publicKeyToken="61EA4348D43881B7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Zm1EeY2U6voe0hr3npvAKT/9lvhjq12H94vO6e+f/Ws=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Webcam.exe" size="11192">
+      <assemblyIdentity name="Webcam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lcBHLQGg/W29WvzJ6BQfKxssDJ27J2XZRtr/UimCm2w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Webcam.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Mazen-PC\Mazen" issuerKeyHash="274e7b29a8eecbe49eae9cdb76306ce311a1e172" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SM83O8+o2lc/YnzWXljOg82NZHG7SzLIEskWlQjUPNM=</DigestValue></Reference></SignedInfo><SignatureValue>ZFAIq8OgDGkgNiTImUJkTJ7zIlr4yurPoBzjXBJokg0muocKhN4VA1rgkJfyPpMCtYoLLar/Ywi8bIfq4AxQou48wuaja31JlCBF/FOSttikP8xrD/Uh9uES+10oKksXwkMkSgNGMAU/zKWLf6CycbmknyK/nlEYe+NinCf++ec=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4lLfibaA3jTHNzuEp/xQY5yGUzGKyH/f7D4ePlzWM10pKHm7uA37X+PwIwmeX/Xmfdb1q7HU1m7H8/Zja00QS1eO6AVvSyX+M+ojyrh2vMARakK1fU1zFNT5MCX97s1IyTyFzYPoasBCqy2AszT7Vv65vPzdTQJPBmobhDthVtc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d33cd4089516c912c8324bbb71648dcd83ce585ed67c623f57daa8cf3b37cf48" Description="" Url=""><as:assemblyIdentity name="Webcam.exe" version="1.0.0.0" publicKeyToken="30abcae15e251c5a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Mazen-PC\Mazen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qIgZozQTAzBjmbFe9syDSegtS8wVun6+PEJzOmEQqBk=</DigestValue></Reference></SignedInfo><SignatureValue>WeTWqtcWscAHFlkU/HPqTisAxIO02iY8YyXFmghv3P5VNMRLaLcSkXftFk3hxV/N5PUoARQdpjD/bNzz+UhSJKma7D+i4NLqbMO6XvZRnlZKW16w8nl9p5NSFxjrKEIMqMNLdPBjGdhFZh/FJTUaD26J5hDsVKphEIHbuvO1L1A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4lLfibaA3jTHNzuEp/xQY5yGUzGKyH/f7D4ePlzWM10pKHm7uA37X+PwIwmeX/Xmfdb1q7HU1m7H8/Zja00QS1eO6AVvSyX+M+ojyrh2vMARakK1fU1zFNT5MCX97s1IyTyFzYPoasBCqy2AszT7Vv65vPzdTQJPBmobhDthVtc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQHCkkSUIvQK5IeJ5fufK4kjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATQBhAHoAZQBuAC0AUABDAFwATQBhAHoAZQBuMB4XDTE4MDUwNzIzMDg1NloXDTE5MDUwODA1MDg1NlowJzElMCMGA1UEAx4cAE0AYQB6AGUAbgAtAFAAQwBcAE0AYQB6AGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4lLfibaA3jTHNzuEp/xQY5yGUzGKyH/f7D4ePlzWM10pKHm7uA37X+PwIwmeX/Xmfdb1q7HU1m7H8/Zja00QS1eO6AVvSyX+M+ojyrh2vMARakK1fU1zFNT5MCX97s1IyTyFzYPoasBCqy2AszT7Vv65vPzdTQJPBmobhDthVtcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDffqz5f0fIq7ucelOo5y1WbJ4Ma/Ffz6mQSEPbR8Lb68zNLwyS3zV0tgiigQKOjeWgqU12vdpWrf+/qJHwYMtzMVEDY3jj9BqljFScWOUTmYR6tUpTXW97CiWO2fPGneLACwd0FueX0C5I3VbvLgCFpzAYmy09InIt1VrS5Aw10w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
