@@ -17,3 +17,6 @@ C:\Users\Mazen\Documents\Visual Studio 2015\Projects\Webcam\Webcam\bin\Debug\Web
 C:\Users\Mazen\Documents\Visual Studio 2015\Projects\Webcam\Webcam\bin\Debug\Webcam.application
 C:\Users\Mazen\Documents\Visual Studio 2015\Projects\Webcam\Webcam\obj\Debug\Webcam.exe.manifest
 C:\Users\Mazen\Documents\Visual Studio 2015\Projects\Webcam\Webcam\obj\Debug\Webcam.application
+D:\Dropbox\Programming_Files\Webcam\Webcam\bin\Debug\Webcam.exe.config
+D:\Dropbox\Programming_Files\Webcam\Webcam\obj\Debug\Webcam.exe
+D:\Dropbox\Programming_Files\Webcam\Webcam\obj\Debug\Webcam.pdb
